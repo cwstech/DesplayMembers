@@ -117,11 +117,9 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     // $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->Host       = 'smtpout.secureserver.net';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    // $mail->Username   = 'namraramsha2@gmail.com';                     //SMTP username
-    $mail->Username   = 'no-reply@rct-rakshakgroupsurat.in';                     //SMTP username
-    // $mail->Password   = 'ysbxnpfbumkgcqrf';                               //SMTP password
-    $mail->Password   = 'Rakshak@Surat';                               //SMTP password
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication                     //SMTP username
+    $mail->Username   = '';                     //SMTP username
+    $mail->Password   = 'xxxxxxxxx';                               //SMTP password
     // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
